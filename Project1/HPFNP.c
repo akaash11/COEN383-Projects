@@ -6,7 +6,41 @@
 process_stat * create_process_stat(process* proc);
 int compare_priority(void * data1, void * data2);
 void printqueue(queue * q);
+/*
+// function to compare priority and arival time for highest priority first non preemptive //
+int compare_priority(void * data1, void * data2)
+{
+  process_stat * ps1 = (process_stat *) data1;
+	process_stat * ps2 = (process_stat *) data2;
+	if(((((process *)ps1->proc)->priority)) < ((((process *)ps2->proc)->priority))) {
+		return -1;
+	}else if (((((process *)ps1->proc)->priority)) == ((((process *)ps2->proc)->priority)) &&  (((process *)ps1->proc)->arrival_time < (((process *)ps2->proc)->arrival_time)))
+  {
+    return -1;
+  }
+   else {
+		return 1;
+	}
+}
 
+// function to print contents of queue for testing purpose during highest priority first non preemptive //
+void printqueue(queue * q)
+{
+  if (q->head != NULL)
+  {
+    node * n = q->head;
+    printf("Queue Contains:\n");
+    while(n != NULL)
+    {
+      process_stat* ps = n->data;
+      process * p = ps->proc;
+      printf("Process Id %c priority %u arrival time %f \n",p->pid,p->priority,p->arrival_time);
+      n = n->next;
+    }
+  }
+  return;
+}
+*/
 // Implementation of highest priority first non preemptive //
 
 average_stats highest_priority_first_np(linked_list * processes)
@@ -31,6 +65,14 @@ average_stats highest_priority_first_np(linked_list * processes)
   process_stat * scheduled_process = NULL;
   while(t<100 || scheduled_process!=NULL )
   {
+    //printf("Time %d\n",t);
+    /** // Use this while preemeption //
+    if(scheduled_process!=NULL)
+    {
+      enqueue(process_queue,scheduled_process);
+      scheduled_process = NULL;
+    }
+    **/
     //check for incoming new process and enqueue it in the queue
 		if(process_pointer != NULL) {
 			process * new_process = (process *)(process_pointer->data);
@@ -49,12 +91,19 @@ average_stats highest_priority_first_np(linked_list * processes)
       // sort all the processes that have arrived based on their priority //
       //sort(process_queue,compare_priority);
     }
+    //printqueue(process_queue);
     //if there is no scheduled process, then check process queue and schedule it //
 		if(scheduled_process == NULL) {
       if (process_queue_1->size > 0) scheduled_process = (process_stat *) dequeue(process_queue_1);
       else if (process_queue_2->size > 0) scheduled_process = (process_stat *) dequeue(process_queue_2);
       else if (process_queue_3->size > 0) scheduled_process = (process_stat *) dequeue(process_queue_3);
       else if (process_queue_4->size > 0) scheduled_process = (process_stat *) dequeue(process_queue_4);
+      // If the process has not started before quanta 100, remove the process from the queue and take the next process in queue for execution //
+      /*
+      while(t>=100 && scheduled_process->start_time == -1)
+      {
+        scheduled_process = (process_stat *) dequeue(process_queue);
+      }*/
       if (t>=100 && scheduled_process->start_time == -1){
         //free(scheduled_process);
         scheduled_process = NULL;
@@ -116,5 +165,4 @@ average_stats highest_priority_first_np(linked_list * processes)
     printf("Average Turn Around Time :%.1f\n",avg.avg_turnaround);
 
     return avg;
-
 }
