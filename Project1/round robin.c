@@ -1,72 +1,89 @@
 #include <stdio.h>
-#include "utility.h"
-#include "process.h"
+#include <stdlib.h>
 #include "stat.h"
+#include "utility.h"
 
-// Algorithm for round robin
-int round_robin(process_s *process)
-{
-    int turnaroundtime = 0, responsetime = 0, waitingtime = 0, idletime = 0;
-    int i = 0, process_completed = 0, previous_process = 0;
-    float idle_quanta = 0;
-    process* proc = NULL;
-    int currentturnaround
-    
-    printf("\n Round Robin Process...\n\n");
-    
-    
-    while(1)
-    {
-        idle_quanta = 0;
-        
-        //when all the processes have been completed break the loop
-        if (process_completed == p->size)
-            break;
-        
-        // if there is no process to run then the quanta will be idle
-        if(process == NULL)
-        {
-            printf("timeslice %d: idle", i);
-            idletime += 1;
-        }
-        else
-        {
-            // get the CPU, NOTE: remainingtime should be added
-            if(process->run_time == process-remainingtime)
-                responsetime += i - process->arrival_time;
-            
-            if(process->run_time == process->remainingtime)
-                process_completed++;
-            
-            previous_process = process->pid;
-            
-            printf("timeslice %d: idle", i);
-            process->remainingtime -= 1;
-            
-            //if process is completed, then idle time recorded
-            if(task->remainingtime <= 0)
-            {
-                process_completed++;
-                idlequanta = 1;
-                process->remainingtime = 0;
-                turnaroundtime += i - process->arrival_time;
-                currentturnaround = i - process->arrival_time;
-                waitingtime += currentturnaround - process-run_time;
-            }
-            
-            // task id and remaing run time
-            print("PID: %d, Remaining runtime: %d", process->pid, process->remainingtime);
-            
-            // check if cpu is idle
-            if(idlequanta)
-            {
-                print("cpu was idle for %f amount of time", idlequanta)
-                idletime += idlequanta;
-            }
-            
-        } // else statement
-        i++;
-        printf("\n");
-    }// while loop
+process_stat * create_process_stat(process* proc);
+
+average_stats round_robin_p(linked_list * processes, int time_slice) {
+	int t = 0;
+
+	//Create Process Queue
+	queue *process_queue = (queue *)create_queue();
+	node * proc_ptr = processes->head;
+	if(processes->head == NULL) {
+		fprintf(stderr,"No Process to schedule\n");
+	}
+	//while process queue is not empty or time quanta is less than 100
+	process_stat * scheduled_process = NULL;
+
+	linked_list *ll = create_linked_list();
+	printf("\nRound Robbin:\n");
+	node * cur_node = NULL;
+	int cur_run = 0;
+	while(t<100 || process_queue->size > 0) {
+		//check for incoming new process and enqueue it in the queue only when its arrival time is before 100
+		if(proc_ptr != NULL && t<100) {
+			process * new_process = (process *)(proc_ptr->data);
+			while(proc_ptr!=NULL && new_process->arrival_time <= t) {
+				enqueue(process_queue,create_process_stat(new_process));
+				proc_ptr = proc_ptr->next;
+				if(proc_ptr!=NULL)
+					new_process = (process *)(proc_ptr->data);
+			}
+		}
+
+		//if there is no scheduled process, then check process queue and schedule it
+		if(cur_node == NULL) {
+			cur_run = 0;
+			cur_node = process_queue->head;
+		} else if(cur_run == time_slice) {
+			cur_run = 0;
+			cur_node = cur_node->next;
+			if(cur_node == NULL) {
+				cur_node = process_queue->head;
+			}
+		}
+
+		if(cur_node != NULL) {
+			scheduled_process = (process_stat *) cur_node->data;
+			process * proc = scheduled_process->proc;
+
+			if(t>=100) {
+				if(scheduled_process->start_time == -1) {
+					//Don't start any new process, remove it from process_queue
+					free(scheduled_process);
+					//dequeue(scheduled_process);
+					node * next = cur_node->next;
+					remove_node(process_queue,cur_node->data);
+					cur_node = next;
+					cur_run = 0;
+					continue;
+				}
+			}
+			//add current running process to the time chart
+			printf("%c",proc->pid);
+			cur_run++;
+			//update current processes stat
+			if(scheduled_process->start_time == -1) {
+				scheduled_process->start_time = t;
+			}
+			scheduled_process->run_time++;
+
+			if(scheduled_process->run_time >= proc->run_time) {
+				scheduled_process->end_time = t;
+				add_node(ll,scheduled_process);
+				node * next = cur_node -> next;
+				remove_node(process_queue, cur_node->data);
+				cur_node = next;
+				cur_run = 0;
+			}
+		} else {
+			printf("_");
+		}
+		//increase the time
+		t++;
+	}
+
+	return print_policy_stat(ll);
 }
-
