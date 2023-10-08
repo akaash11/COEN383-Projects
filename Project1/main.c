@@ -52,8 +52,8 @@ int main(int argc,char **argv) {
 		hpfnp[ctr] = highest_priority_first_np(processList);
 		ctr++;
 	}
-	int i=0;
-	for (i = 0; i<6 ; i++)
+
+	for (int i = 0; i<6 ; i++)
 	{
 			final[i].avg_response_time = 0;
 			final[i].avg_wait_time = 0;
@@ -61,8 +61,8 @@ int main(int argc,char **argv) {
 			final[i].avg_throughput = 0;
 	}
 
-	// Total of all average values
-	for (i = 0; i<5 ; i++)
+	// Total of all avaerage values
+	for (int i = 0; i<5 ; i++)
 	{
 			final[0].avg_response_time += fcfs[i].avg_response_time;
 			final[1].avg_response_time += sjf[i].avg_response_time;
@@ -94,7 +94,7 @@ int main(int argc,char **argv) {
 	}
 
 	//Average for all the algorithms
-	for (i = 0; i<6 ; i++)
+	for (int i = 0; i<6 ; i++)
 	{
 			final[i].avg_response_time /= 5;
 			final[i].avg_wait_time /= 5;

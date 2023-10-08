@@ -47,6 +47,6 @@ average_stats highest_priority_first_np(linked_list * processes);
 average_stats highest_priority_first_p_aging(linked_list * processes);
 average_stats highest_priority_first_np_aging(linked_list * processes);
 
-// Print Stat
+// Print Stat//
 average_stats print_policy_stat(linked_list * ll);
 #endif

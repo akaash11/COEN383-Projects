@@ -7,7 +7,7 @@
 
 // linked_list Implementation Function Definitions //
 
-//create new linked_list
+//create new linked_list//
 
 linked_list * create_linked_list()
 {
@@ -20,7 +20,7 @@ linked_list * create_linked_list()
 
 
 
-//create a new node
+//create a new node//
 node* create_node(void* data)
 {
 	node* new_node = (node*) malloc(sizeof(node));
@@ -30,7 +30,7 @@ node* create_node(void* data)
 	return new_node;
 }
 
-// Add a node to existing linked list
+// Add a node to existing linked list//
 void add_node(linked_list * ll, void * data)
 {
 	node * new_node = create_node(data);
@@ -47,7 +47,7 @@ void add_node(linked_list * ll, void * data)
 	}
 }
 
-// Remove a node from existing linked_list
+// Remove a node from existing linked_list //
 void remove_node(linked_list* ll, void * data)
 {
 	node* current_node = ll->head;
@@ -74,7 +74,7 @@ void remove_node(linked_list* ll, void * data)
 	}
 }
 
-// Remove a node from existing linked_list 
+// Remove a node from existing linked_list //
 void remove_head(linked_list* ll)
 {
 	node * current_node = ll->head;
@@ -88,7 +88,7 @@ void remove_head(linked_list* ll)
 	}
 }
 
-// Add a new node after a particular node in an existing linked_list
+// Add a new node after a particular node in an existing linked_list//
 void add_after(linked_list* ll, node *after_node, void *data)
 {
 	node* new_node = create_node(data);
@@ -129,13 +129,13 @@ void swap_nodes(node *a, node *b) {
 	b->data = temp;
 }
 
-// Queue Implementation
+// Queue Implementation //
 
 queue * create_queue() {
 	return create_linked_list();
 }
 
-// Enqueue function to add process at the end of the queue
+// Enqueue function to add process at the end of the queue //
 void enqueue(queue* q, void * data)
 {
 	node* new_node = create_node(data);
@@ -151,7 +151,7 @@ void enqueue(queue* q, void * data)
 	q->size += 1;
 }
 
-// Dequeue function to remove process from the end of the queue
+// Dequeue function to remove process from the end of the queue //
 void* dequeue(queue* q)
 {
 	if(q->head != NULL) {
