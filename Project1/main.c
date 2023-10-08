@@ -14,6 +14,7 @@ void dispQueue(queue *q) {
 }
 int main(int argc,char **argv) {
 	int ctr = 0;
+	int i = 0;
 	//Run 5 times
 	average_stats fcfs[6],sjf[6],srf[6],rr[6],hpfp[6],hpfnp[6],final[6];
 
@@ -53,7 +54,7 @@ int main(int argc,char **argv) {
 		ctr++;
 	}
 
-	for (int i = 0; i<6 ; i++)
+	for (i = 0; i<6 ; i++)
 	{
 			final[i].avg_response_time = 0;
 			final[i].avg_wait_time = 0;
@@ -62,7 +63,7 @@ int main(int argc,char **argv) {
 	}
 
 	// Total of all avaerage values
-	for (int i = 0; i<5 ; i++)
+	for (i = 0; i<5 ; i++)
 	{
 			final[0].avg_response_time += fcfs[i].avg_response_time;
 			final[1].avg_response_time += sjf[i].avg_response_time;
@@ -94,7 +95,7 @@ int main(int argc,char **argv) {
 	}
 
 	//Average for all the algorithms
-	for (int i = 0; i<6 ; i++)
+	for (i = 0; i<6 ; i++)
 	{
 			final[i].avg_response_time /= 5;
 			final[i].avg_wait_time /= 5;
