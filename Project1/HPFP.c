@@ -5,7 +5,7 @@
 
 process_stat * create_process_stat(process* proc);
 
-// function to compare priority and arival time for highest priority first preemptive
+// function to compare priority and arival time for highest priority first preemptive //
 int compare_priority(void * data1, void * data2)
 {
   process_stat * ps1 = (process_stat *) data1;
@@ -21,7 +21,7 @@ int compare_priority(void * data1, void * data2)
 	}
 }
 
-// function to print contents of queue for testing purpose during highest priority first
+// function to print contents of queue for testing purpose during highest priority first //
 void printqueue(queue * q)
 {
   if (q->head != NULL)
@@ -39,7 +39,7 @@ void printqueue(queue * q)
   return;
 }
 
-// Implementation of highest priority first preemptive
+// Implementation of highest priority first preemptive //
 
 average_stats highest_priority_first_p(linked_list * processes)
 {
@@ -93,17 +93,24 @@ average_stats highest_priority_first_p(linked_list * processes)
 					new_process = (process *)(process_pointer->data);
         }
 			}
-      // sort all the processes that have arrived based on their remaining running time to completion
+      // sort all the processes that have arrived based on their remaining running time to completion //
       //sort(process_queue,compare_priority);
     }
     //printqueue(process_queue);
 
-    //if there is no scheduled process, then check process queue and schedule it
+    //if there is no scheduled process, then check process queue and schedule it //
     if(scheduled_process == NULL) {
       if (process_queue_1->size > 0) scheduled_process = (process_stat *) dequeue(process_queue_1);
       else if (process_queue_2->size > 0) scheduled_process = (process_stat *) dequeue(process_queue_2);
       else if (process_queue_3->size > 0) scheduled_process = (process_stat *) dequeue(process_queue_3);
       else if (process_queue_4->size > 0) scheduled_process = (process_stat *) dequeue(process_queue_4);
+      // If the process has not started before quanta 100, remove the process from the queue and take the next process in queue for execution //
+      /*
+      while(t>=100 && scheduled_process->start_time == -1)
+      {
+        scheduled_process = (process_stat *) dequeue(process_queue);
+      }
+      */
       if (t>=100 && scheduled_process->start_time == -1){
         //free(scheduled_process);
         scheduled_process = NULL;
