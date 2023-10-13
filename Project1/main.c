@@ -2,7 +2,7 @@
 #include "utility.h"
 #include "process.h"
 #include "stat.h"
-
+/*
 void dispQueue(queue *q) {
 	node * ptr = (node *)q->head;
 				printf("<");
@@ -11,7 +11,7 @@ void dispQueue(queue *q) {
 					ptr = ptr->next;
 				}
 				printf(">\n");
-}
+} */
 int main(int argc,char **argv) {
 	int ctr = 0;
 	int i = 0;
@@ -42,7 +42,7 @@ int main(int argc,char **argv) {
 		//First Come First Serve
 		fcfs[ctr] = first_come_first_serve_np(processList);
 		//Round Robin
-		rr[ctr] = round_robin_p(processList,5);
+		rr[ctr] = round_robin_p(processList,1);
 		//Shortest Job First
 		sjf[ctr] = shortest_job_first_np(processList);
 		//Shortest Remaining Time First
