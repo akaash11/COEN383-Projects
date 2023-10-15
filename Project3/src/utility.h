@@ -28,7 +28,7 @@ void swap_nodes(node *a, node *b);
 
 
 
-// Queue Implementatin //
+// Queue Implementatin
 
 typedef struct linked_list_s queue;
 
