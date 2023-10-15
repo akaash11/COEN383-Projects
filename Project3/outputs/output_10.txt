@@ -1,0 +1,2046 @@
+Creating thread H00
+Creating thread M00
+Creating thread M01
+Creating thread M02
+Creating thread L00
+Creating thread L01
+Creating thread L02
+Creating thread L03
+Creating thread L04
+Creating thread L05
+00:00 L03 Waiting for next clock tick
+00:00 L02 Waiting for next clock tick
+00:00 L04 Waiting for next clock tick
+00:00 L01 Waiting for next clock tick
+00:00 L05 Waiting for next clock tick
+00:00 L06 Waiting for next clock tick
+00:00 M03 Waiting for next clock tick
+00:00 M02 Waiting for next clock tick
+00:00 M01 Waiting for next clock tick
+00:00 H01 Waiting for next clock tick
+Starting Simulation
+00:00 Main Thread Clock Tick
+00:00 L02 Received Clock Tick
+00:00 L02 Waiting for next clock tick
+00:00 L04 Received Clock Tick
+00:00 L04 Waiting for next clock tick
+00:00 L01 Received Clock Tick
+00:00 L1 Customer No L101 arrived
+00:00 L1 Serving Customer No L101
+Wait time 4
+00:00 L01 Waiting for next clock tick
+00:00 L05 Received Clock Tick
+00:00 L05 Waiting for next clock tick
+00:00 L06 Received Clock Tick
+00:00 L6 Customer No L601 arrived
+00:00 L6 Serving Customer No L601
+Wait time 4
+00:00 L06 Waiting for next clock tick
+00:00 M03 Received Clock Tick
+00:00 M03 Waiting for next clock tick
+00:00 M02 Received Clock Tick
+00:00 M02 Waiting for next clock tick
+00:00 M01 Received Clock Tick
+00:00 M01 Waiting for next clock tick
+00:00 H01 Received Clock Tick
+00:00 H01 Waiting for next clock tick
+00:00 L03 Received Clock Tick
+00:00 L03 Waiting for next clock tick
+00:01 Main Thread Clock Tick
+00:01 L04 Received Clock Tick
+00:01 L04 Waiting for next clock tick
+00:01 L01 Received Clock Tick
+Wait time 3
+00:01 L01 Waiting for next clock tick
+00:01 L05 Received Clock Tick
+00:01 L05 Waiting for next clock tick
+00:01 L06 Received Clock Tick
+Wait time 3
+00:01 L06 Waiting for next clock tick
+00:01 M03 Received Clock Tick
+00:01 M03 Waiting for next clock tick
+00:01 M02 Received Clock Tick
+00:01 M02 Waiting for next clock tick
+00:01 M01 Received Clock Tick
+00:01 M01 Waiting for next clock tick
+00:01 H01 Received Clock Tick
+00:01 H01 Waiting for next clock tick
+00:01 L03 Received Clock Tick
+00:01 L03 Waiting for next clock tick
+00:01 L02 Received Clock Tick
+00:01 L2 Customer No L201 arrived
+00:01 L2 Serving Customer No L201
+Wait time 4
+00:01 L02 Waiting for next clock tick
+00:02 Main Thread Clock Tick
+00:02 L01 Received Clock Tick
+Wait time 2
+00:02 L01 Waiting for next clock tick
+00:02 L05 Received Clock Tick
+00:02 L05 Waiting for next clock tick
+00:02 L06 Received Clock Tick
+Wait time 2
+00:02 L06 Waiting for next clock tick
+00:02 M03 Received Clock Tick
+00:02 M03 Waiting for next clock tick
+00:02 M02 Received Clock Tick
+00:02 M02 Waiting for next clock tick
+00:02 M01 Received Clock Tick
+00:02 M01 Waiting for next clock tick
+00:02 H01 Received Clock Tick
+00:02 H01 Waiting for next clock tick
+00:02 L03 Received Clock Tick
+00:02 L03 Waiting for next clock tick
+00:02 L02 Received Clock Tick
+00:02 L2 Customer No L202 arrived
+Wait time 3
+00:02 L02 Waiting for next clock tick
+00:02 L04 Received Clock Tick
+00:02 L04 Waiting for next clock tick
+00:03 Main Thread Clock Tick
+00:03 L05 Received Clock Tick
+00:03 L05 Waiting for next clock tick
+00:03 L06 Received Clock Tick
+Wait time 1
+00:03 L06 Waiting for next clock tick
+00:03 M03 Received Clock Tick
+00:03 M03 Waiting for next clock tick
+00:03 M02 Received Clock Tick
+00:03 M02 Waiting for next clock tick
+00:03 M01 Received Clock Tick
+00:03 M01 Waiting for next clock tick
+00:03 H01 Received Clock Tick
+00:03 H01 Waiting for next clock tick
+00:03 L03 Received Clock Tick
+00:03 L3 Customer No L301 arrived
+00:03 L3 Customer No L302 arrived
+00:03 L3 Serving Customer No L301
+Wait time 5
+00:03 L03 Waiting for next clock tick
+00:03 L02 Received Clock Tick
+00:03 L2 Customer No L203 arrived
+Wait time 2
+00:03 L02 Waiting for next clock tick
+00:03 L04 Received Clock Tick
+00:03 L04 Waiting for next clock tick
+00:03 L01 Received Clock Tick
+Wait time 1
+00:03 L01 Waiting for next clock tick
+00:04 Main Thread Clock Tick
+00:04 L06 Received Clock Tick
+Wait time 0
+00:04 L6 Customer No L601 assigned seat 9,9 
+00:04 L06 Waiting for next clock tick
+00:04 M02 Received Clock Tick
+00:04 M02 Waiting for next clock tick
+00:04 M01 Received Clock Tick
+00:04 M01 Waiting for next clock tick
+00:04 H01 Received Clock Tick
+00:04 H1 Customer No H101 arrived
+00:04 H1 Serving Customer No H101
+Wait time 1
+00:04 H01 Waiting for next clock tick
+00:04 L03 Received Clock Tick
+Wait time 4
+00:04 L03 Waiting for next clock tick
+00:04 L02 Received Clock Tick
+Wait time 1
+00:04 L02 Waiting for next clock tick
+00:04 L04 Received Clock Tick
+00:04 L4 Customer No L401 arrived
+00:04 L4 Customer No L402 arrived
+00:04 L4 Serving Customer No L401
+Wait time 6
+00:04 L04 Waiting for next clock tick
+00:04 L01 Received Clock Tick
+Wait time 0
+00:04 L1 Customer No L101 assigned seat 9,8 
+00:04 L01 Waiting for next clock tick
+00:04 L05 Received Clock Tick
+00:04 L5 Customer No L501 arrived
+00:04 L5 Serving Customer No L501
+Wait time 5
+00:04 L05 Waiting for next clock tick
+00:04 M03 Received Clock Tick
+00:04 M03 Waiting for next clock tick
+00:05 Main Thread Clock Tick
+00:05 M02 Received Clock Tick
+00:05 M02 Waiting for next clock tick
+00:05 M01 Received Clock Tick
+00:05 M1 Customer No M101 arrived
+00:05 M1 Serving Customer No M101
+Wait time 2
+00:05 M01 Waiting for next clock tick
+00:05 H01 Received Clock Tick
+Wait time 0
+00:05 H1 Customer No H101 assigned seat 0,0 
+00:05 H01 Waiting for next clock tick
+00:05 L03 Received Clock Tick
+Wait time 3
+00:05 L03 Waiting for next clock tick
+00:05 L02 Received Clock Tick
+Wait time 0
+00:05 L2 Customer No L201 assigned seat 9,7 
+00:05 L02 Waiting for next clock tick
+00:05 L04 Received Clock Tick
+Wait time 5
+00:05 L04 Waiting for next clock tick
+00:05 L01 Received Clock Tick
+00:05 L01 Waiting for next clock tick
+00:05 L05 Received Clock Tick
+Wait time 4
+00:05 L05 Waiting for next clock tick
+00:05 M03 Received Clock Tick
+00:05 M03 Waiting for next clock tick
+00:05 L06 Received Clock Tick
+00:05 L06 Waiting for next clock tick
+00:06 Main Thread Clock Tick
+00:06 M01 Received Clock Tick
+Wait time 1
+00:06 M01 Waiting for next clock tick
+00:06 H01 Received Clock Tick
+00:06 H01 Waiting for next clock tick
+00:06 L03 Received Clock Tick
+Wait time 2
+00:06 L03 Waiting for next clock tick
+00:06 L02 Received Clock Tick
+00:06 L2 Customer No L204 arrived
+00:06 L2 Serving Customer No L202
+Wait time 7
+00:06 L02 Waiting for next clock tick
+00:06 L04 Received Clock Tick
+Wait time 4
+00:06 L04 Waiting for next clock tick
+00:06 L01 Received Clock Tick
+00:06 L01 Waiting for next clock tick
+00:06 L05 Received Clock Tick
+Wait time 3
+00:06 L05 Waiting for next clock tick
+00:06 M03 Received Clock Tick
+00:06 M03 Waiting for next clock tick
+00:06 L06 Received Clock Tick
+00:06 L06 Waiting for next clock tick
+00:06 M02 Received Clock Tick
+00:06 M02 Waiting for next clock tick
+00:07 Main Thread Clock Tick
+00:07 H01 Received Clock Tick
+00:07 H01 Waiting for next clock tick
+00:07 L03 Received Clock Tick
+Wait time 1
+00:07 L03 Waiting for next clock tick
+00:07 L02 Received Clock Tick
+Wait time 6
+00:07 L02 Waiting for next clock tick
+00:07 L04 Received Clock Tick
+Wait time 3
+00:07 L04 Waiting for next clock tick
+00:07 L01 Received Clock Tick
+00:07 L01 Waiting for next clock tick
+00:07 L05 Received Clock Tick
+Wait time 2
+00:07 L05 Waiting for next clock tick
+00:07 M03 Received Clock Tick
+00:07 M03 Waiting for next clock tick
+00:07 L06 Received Clock Tick
+00:07 L06 Waiting for next clock tick
+00:07 M02 Received Clock Tick
+00:07 M02 Waiting for next clock tick
+00:07 M01 Received Clock Tick
+Wait time 0
+00:07 M1 Customer No M101 assigned seat 5,0 
+00:07 M01 Waiting for next clock tick
+00:08 Main Thread Clock Tick
+00:08 L03 Received Clock Tick
+Wait time 0
+00:08 L3 Customer No L301 assigned seat 9,6 
+00:08 L03 Waiting for next clock tick
+00:08 L02 Received Clock Tick
+Wait time 5
+00:08 L02 Waiting for next clock tick
+00:08 L04 Received Clock Tick
+Wait time 2
+00:08 L04 Waiting for next clock tick
+00:08 L01 Received Clock Tick
+00:08 L01 Waiting for next clock tick
+00:08 L05 Received Clock Tick
+00:08 L5 Customer No L502 arrived
+Wait time 1
+00:08 L05 Waiting for next clock tick
+00:08 M03 Received Clock Tick
+00:08 M03 Waiting for next clock tick
+00:08 L06 Received Clock Tick
+00:08 L06 Waiting for next clock tick
+00:08 M02 Received Clock Tick
+00:08 M02 Waiting for next clock tick
+00:08 M01 Received Clock Tick
+00:08 M01 Waiting for next clock tick
+00:08 H01 Received Clock Tick
+00:08 H01 Waiting for next clock tick
+00:09 Main Thread Clock Tick
+00:09 L02 Received Clock Tick
+Wait time 4
+00:09 L02 Waiting for next clock tick
+00:09 L04 Received Clock Tick
+Wait time 1
+00:09 L04 Waiting for next clock tick
+00:09 L01 Received Clock Tick
+00:09 L01 Waiting for next clock tick
+00:09 L05 Received Clock Tick
+Wait time 0
+00:09 L5 Customer No L501 assigned seat 9,5 
+00:09 L05 Waiting for next clock tick
+00:09 M03 Received Clock Tick
+00:09 M3 Customer No M301 arrived
+00:09 M3 Serving Customer No M301
+Wait time 3
+00:09 M03 Waiting for next clock tick
+00:09 L06 Received Clock Tick
+00:09 L06 Waiting for next clock tick
+00:09 M02 Received Clock Tick
+00:09 M02 Waiting for next clock tick
+00:09 M01 Received Clock Tick
+00:09 M01 Waiting for next clock tick
+00:09 H01 Received Clock Tick
+00:09 H01 Waiting for next clock tick
+00:09 L03 Received Clock Tick
+00:09 L3 Customer No L303 arrived
+00:09 L3 Serving Customer No L302
+Wait time 4
+00:09 L03 Waiting for next clock tick
+00:10 Main Thread Clock Tick
+00:10 L04 Received Clock Tick
+Wait time 0
+00:10 L4 Customer No L401 assigned seat 9,4 
+00:10 L04 Waiting for next clock tick
+00:10 L01 Received Clock Tick
+00:10 L01 Waiting for next clock tick
+00:10 L05 Received Clock Tick
+00:10 L5 Serving Customer No L502
+Wait time 7
+00:10 L05 Waiting for next clock tick
+00:10 M03 Received Clock Tick
+Wait time 2
+00:10 M03 Waiting for next clock tick
+00:10 L06 Received Clock Tick
+00:10 L6 Customer No L602 arrived
+00:10 L6 Serving Customer No L602
+Wait time 7
+00:10 L06 Waiting for next clock tick
+00:10 M02 Received Clock Tick
+00:10 M02 Waiting for next clock tick
+00:10 M01 Received Clock Tick
+00:10 M1 Customer No M102 arrived
+00:10 M1 Customer No M103 arrived
+00:10 M1 Serving Customer No M102
+Wait time 3
+00:10 M01 Waiting for next clock tick
+00:10 H01 Received Clock Tick
+00:10 H1 Customer No H102 arrived
+00:10 H1 Serving Customer No H102
+Wait time 2
+00:10 H01 Waiting for next clock tick
+00:10 L03 Received Clock Tick
+Wait time 3
+00:10 L03 Waiting for next clock tick
+00:10 L02 Received Clock Tick
+Wait time 3
+00:10 L02 Waiting for next clock tick
+00:11 Main Thread Clock Tick
+00:11 L01 Received Clock Tick
+00:11 L1 Customer No L102 arrived
+00:11 L1 Serving Customer No L102
+Wait time 4
+00:11 L01 Waiting for next clock tick
+00:11 L05 Received Clock Tick
+Wait time 6
+00:11 L05 Waiting for next clock tick
+00:11 M03 Received Clock Tick
+Wait time 1
+00:11 M03 Waiting for next clock tick
+00:11 L06 Received Clock Tick
+Wait time 6
+00:11 L06 Waiting for next clock tick
+00:11 M02 Received Clock Tick
+00:11 M2 Customer No M201 arrived
+00:11 M2 Serving Customer No M201
+Wait time 3
+00:11 M02 Waiting for next clock tick
+00:11 M01 Received Clock Tick
+00:11 M1 Customer No M104 arrived
+Wait time 2
+00:11 M01 Waiting for next clock tick
+00:11 H01 Received Clock Tick
+Wait time 1
+00:11 H01 Waiting for next clock tick
+00:11 L03 Received Clock Tick
+Wait time 2
+00:11 L03 Waiting for next clock tick
+00:11 L02 Received Clock Tick
+Wait time 2
+00:11 L02 Waiting for next clock tick
+00:11 L04 Received Clock Tick
+00:11 L4 Serving Customer No L402
+Wait time 6
+00:11 L04 Waiting for next clock tick
+00:12 Main Thread Clock Tick
+00:12 L05 Received Clock Tick
+Wait time 5
+00:12 L05 Waiting for next clock tick
+00:12 M03 Received Clock Tick
+Wait time 0
+00:12 M3 Customer No M301 assigned seat 5,1 
+00:12 M03 Waiting for next clock tick
+00:12 L06 Received Clock Tick
+Wait time 5
+00:12 L06 Waiting for next clock tick
+00:12 M02 Received Clock Tick
+00:12 M2 Customer No M202 arrived
+Wait time 2
+00:12 M02 Waiting for next clock tick
+00:12 M01 Received Clock Tick
+Wait time 1
+00:12 M01 Waiting for next clock tick
+00:12 H01 Received Clock Tick
+00:12 H1 Customer No H103 arrived
+Wait time 0
+00:12 H1 Customer No H102 assigned seat 0,1 
+00:12 H01 Waiting for next clock tick
+00:12 L03 Received Clock Tick
+Wait time 1
+00:12 L03 Waiting for next clock tick
+00:12 L02 Received Clock Tick
+Wait time 1
+00:12 L02 Waiting for next clock tick
+00:12 L04 Received Clock Tick
+Wait time 5
+00:12 L04 Waiting for next clock tick
+00:12 L01 Received Clock Tick
+Wait time 3
+00:12 L01 Waiting for next clock tick
+00:13 Main Thread Clock Tick
+00:13 M03 Received Clock Tick
+00:13 M03 Waiting for next clock tick
+00:13 L06 Received Clock Tick
+00:13 L6 Customer No L603 arrived
+Wait time 4
+00:13 L06 Waiting for next clock tick
+00:13 M02 Received Clock Tick
+Wait time 1
+00:13 M02 Waiting for next clock tick
+00:13 M01 Received Clock Tick
+Wait time 0
+00:13 M1 Customer No M102 assigned seat 5,2 
+00:13 M01 Waiting for next clock tick
+00:13 H01 Received Clock Tick
+00:13 H1 Serving Customer No H103
+Wait time 1
+00:13 H01 Waiting for next clock tick
+00:13 L03 Received Clock Tick
+Wait time 0
+00:13 L3 Customer No L302 assigned seat 9,3 
+00:13 L03 Waiting for next clock tick
+00:13 L02 Received Clock Tick
+00:13 L2 Customer No L205 arrived
+Wait time 0
+00:13 L2 Customer No L202 assigned seat 9,2 
+00:13 L02 Waiting for next clock tick
+00:13 L04 Received Clock Tick
+00:13 L4 Customer No L403 arrived
+Wait time 4
+00:13 L04 Waiting for next clock tick
+00:13 L01 Received Clock Tick
+Wait time 2
+00:13 L01 Waiting for next clock tick
+00:13 L05 Received Clock Tick
+Wait time 4
+00:13 L05 Waiting for next clock tick
+00:14 Main Thread Clock Tick
+00:14 L06 Received Clock Tick
+00:14 L6 Customer No L604 arrived
+Wait time 3
+00:14 L06 Waiting for next clock tick
+00:14 M02 Received Clock Tick
+Wait time 0
+00:14 M2 Customer No M201 assigned seat 5,3 
+00:14 M02 Waiting for next clock tick
+00:14 M01 Received Clock Tick
+00:14 M1 Serving Customer No M103
+Wait time 3
+00:14 M01 Waiting for next clock tick
+00:14 H01 Received Clock Tick
+Wait time 0
+00:14 H1 Customer No H103 assigned seat 0,2 
+00:14 H01 Waiting for next clock tick
+00:14 L03 Received Clock Tick
+00:14 L3 Customer No L304 arrived
+00:14 L3 Serving Customer No L303
+Wait time 6
+00:14 L03 Waiting for next clock tick
+00:14 L02 Received Clock Tick
+00:14 L2 Serving Customer No L203
+Wait time 6
+00:14 L02 Waiting for next clock tick
+00:14 L04 Received Clock Tick
+00:14 L4 Customer No L404 arrived
+Wait time 3
+00:14 L04 Waiting for next clock tick
+00:14 L01 Received Clock Tick
+Wait time 1
+00:14 L01 Waiting for next clock tick
+00:14 L05 Received Clock Tick
+Wait time 3
+00:14 L05 Waiting for next clock tick
+00:14 M03 Received Clock Tick
+00:14 M03 Waiting for next clock tick
+00:15 Main Thread Clock Tick
+00:15 M02 Received Clock Tick
+00:15 M2 Serving Customer No M202
+Wait time 2
+00:15 M02 Waiting for next clock tick
+00:15 M01 Received Clock Tick
+00:15 M1 Customer No M105 arrived
+Wait time 2
+00:15 M01 Waiting for next clock tick
+00:15 H01 Received Clock Tick
+00:15 H01 Waiting for next clock tick
+00:15 L03 Received Clock Tick
+Wait time 5
+00:15 L03 Waiting for next clock tick
+00:15 L02 Received Clock Tick
+Wait time 5
+00:15 L02 Waiting for next clock tick
+00:15 L04 Received Clock Tick
+00:15 L4 Customer No L405 arrived
+Wait time 2
+00:15 L04 Waiting for next clock tick
+00:15 L01 Received Clock Tick
+Wait time 0
+00:15 L1 Customer No L102 assigned seat 9,1 
+00:15 L01 Waiting for next clock tick
+00:15 L05 Received Clock Tick
+Wait time 2
+00:15 L05 Waiting for next clock tick
+00:15 M03 Received Clock Tick
+00:15 M03 Waiting for next clock tick
+00:15 L06 Received Clock Tick
+Wait time 2
+00:15 L06 Waiting for next clock tick
+00:16 Main Thread Clock Tick
+00:16 M01 Received Clock Tick
+00:16 M1 Customer No M106 arrived
+Wait time 1
+00:16 M01 Waiting for next clock tick
+00:16 H01 Received Clock Tick
+00:16 H01 Waiting for next clock tick
+00:16 L03 Received Clock Tick
+Wait time 4
+00:16 L03 Waiting for next clock tick
+00:16 L02 Received Clock Tick
+Wait time 4
+00:16 L02 Waiting for next clock tick
+00:16 L04 Received Clock Tick
+Wait time 1
+00:16 L04 Waiting for next clock tick
+00:16 L01 Received Clock Tick
+00:16 L01 Waiting for next clock tick
+00:16 L05 Received Clock Tick
+Wait time 1
+00:16 L05 Waiting for next clock tick
+00:16 M03 Received Clock Tick
+00:16 M03 Waiting for next clock tick
+00:16 L06 Received Clock Tick
+Wait time 1
+00:16 L06 Waiting for next clock tick
+00:16 M02 Received Clock Tick
+Wait time 1
+00:16 M02 Waiting for next clock tick
+00:17 Main Thread Clock Tick
+00:17 H01 Received Clock Tick
+00:17 H01 Waiting for next clock tick
+00:17 L03 Received Clock Tick
+00:17 L3 Customer No L305 arrived
+Wait time 3
+00:17 L03 Waiting for next clock tick
+00:17 L02 Received Clock Tick
+Wait time 3
+00:17 L02 Waiting for next clock tick
+00:17 L04 Received Clock Tick
+Wait time 0
+00:17 L4 Customer No L402 assigned seat 9,0 
+00:17 L04 Waiting for next clock tick
+00:17 L01 Received Clock Tick
+00:17 L01 Waiting for next clock tick
+00:17 L05 Received Clock Tick
+Wait time 0
+00:17 L5 Customer No L502 assigned seat 8,9 
+00:17 L05 Waiting for next clock tick
+00:17 M03 Received Clock Tick
+00:17 M03 Waiting for next clock tick
+00:17 L06 Received Clock Tick
+Wait time 0
+00:17 L6 Customer No L602 assigned seat 8,8 
+00:17 L06 Waiting for next clock tick
+00:17 M02 Received Clock Tick
+Wait time 0
+00:17 M2 Customer No M202 assigned seat 5,4 
+00:17 M02 Waiting for next clock tick
+00:17 M01 Received Clock Tick
+00:17 M1 Customer No M107 arrived
+Wait time 0
+00:17 M1 Customer No M103 assigned seat 5,5 
+00:17 M01 Waiting for next clock tick
+00:18 Main Thread Clock Tick
+00:18 L03 Received Clock Tick
+Wait time 2
+00:18 L03 Waiting for next clock tick
+00:18 L02 Received Clock Tick
+Wait time 2
+00:18 L02 Waiting for next clock tick
+00:18 L04 Received Clock Tick
+00:18 L4 Serving Customer No L403
+Wait time 7
+00:18 L04 Waiting for next clock tick
+00:18 L01 Received Clock Tick
+00:18 L01 Waiting for next clock tick
+00:18 L05 Received Clock Tick
+00:18 L05 Waiting for next clock tick
+00:18 M03 Received Clock Tick
+00:18 M3 Customer No M302 arrived
+00:18 M3 Serving Customer No M302
+Wait time 2
+00:18 M03 Waiting for next clock tick
+00:18 L06 Received Clock Tick
+00:18 L6 Serving Customer No L603
+Wait time 4
+00:18 L06 Waiting for next clock tick
+00:18 M02 Received Clock Tick
+00:18 M02 Waiting for next clock tick
+00:18 M01 Received Clock Tick
+00:18 M1 Serving Customer No M104
+Wait time 2
+00:18 M01 Waiting for next clock tick
+00:18 H01 Received Clock Tick
+00:18 H01 Waiting for next clock tick
+00:19 Main Thread Clock Tick
+00:19 L02 Received Clock Tick
+Wait time 1
+00:19 L02 Waiting for next clock tick
+00:19 L04 Received Clock Tick
+Wait time 6
+00:19 L04 Waiting for next clock tick
+00:19 L01 Received Clock Tick
+00:19 L01 Waiting for next clock tick
+00:19 L05 Received Clock Tick
+00:19 L05 Waiting for next clock tick
+00:19 M03 Received Clock Tick
+Wait time 1
+00:19 M03 Waiting for next clock tick
+00:19 L06 Received Clock Tick
+Wait time 3
+00:19 L06 Waiting for next clock tick
+00:19 M02 Received Clock Tick
+00:19 M2 Customer No M203 arrived
+00:19 M2 Customer No M204 arrived
+00:19 M2 Serving Customer No M203
+Wait time 2
+00:19 M02 Waiting for next clock tick
+00:19 M01 Received Clock Tick
+Wait time 1
+00:19 M01 Waiting for next clock tick
+00:19 H01 Received Clock Tick
+00:19 H01 Waiting for next clock tick
+00:19 L03 Received Clock Tick
+Wait time 1
+00:19 L03 Waiting for next clock tick
+00:20 Main Thread Clock Tick
+00:20 L04 Received Clock Tick
+Wait time 5
+00:20 L04 Waiting for next clock tick
+00:20 L01 Received Clock Tick
+00:20 L01 Waiting for next clock tick
+00:20 L05 Received Clock Tick
+00:20 L05 Waiting for next clock tick
+00:20 M03 Received Clock Tick
+Wait time 0
+00:20 M3 Customer No M302 assigned seat 5,6 
+00:20 M03 Waiting for next clock tick
+00:20 L06 Received Clock Tick
+Wait time 2
+00:20 L06 Waiting for next clock tick
+00:20 M02 Received Clock Tick
+Wait time 1
+00:20 M02 Waiting for next clock tick
+00:20 M01 Received Clock Tick
+Wait time 0
+00:20 M1 Customer No M104 assigned seat 5,7 
+00:20 M01 Waiting for next clock tick
+00:20 H01 Received Clock Tick
+00:20 H01 Waiting for next clock tick
+00:20 L03 Received Clock Tick
+Wait time 0
+00:20 L3 Customer No L303 assigned seat 8,7 
+00:20 L03 Waiting for next clock tick
+00:20 L02 Received Clock Tick
+00:20 L2 Customer No L206 arrived
+Wait time 0
+00:20 L2 Customer No L203 assigned seat 8,6 
+00:20 L02 Waiting for next clock tick
+00:21 Main Thread Clock Tick
+00:21 L01 Received Clock Tick
+00:21 L01 Waiting for next clock tick
+00:21 L05 Received Clock Tick
+00:21 L05 Waiting for next clock tick
+00:21 M03 Received Clock Tick
+00:21 M3 Customer No M303 arrived
+00:21 M3 Serving Customer No M303
+Wait time 3
+00:21 M03 Waiting for next clock tick
+00:21 L06 Received Clock Tick
+Wait time 1
+00:21 L06 Waiting for next clock tick
+00:21 M02 Received Clock Tick
+Wait time 0
+00:21 M2 Customer No M203 assigned seat 5,8 
+00:21 M02 Waiting for next clock tick
+00:21 M01 Received Clock Tick
+00:21 M1 Serving Customer No M105
+Wait time 4
+00:21 M01 Waiting for next clock tick
+00:21 H01 Received Clock Tick
+00:21 H01 Waiting for next clock tick
+00:21 L03 Received Clock Tick
+00:21 L3 Serving Customer No L304
+Wait time 6
+00:21 L03 Waiting for next clock tick
+00:21 L02 Received Clock Tick
+00:21 L2 Serving Customer No L204
+Wait time 6
+00:21 L02 Waiting for next clock tick
+00:21 L04 Received Clock Tick
+Wait time 4
+00:21 L04 Waiting for next clock tick
+00:22 Main Thread Clock Tick
+00:22 L05 Received Clock Tick
+00:22 L05 Waiting for next clock tick
+00:22 M03 Received Clock Tick
+Wait time 2
+00:22 M03 Waiting for next clock tick
+00:22 L06 Received Clock Tick
+Wait time 0
+00:22 L6 Customer No L603 assigned seat 8,5 
+00:22 L06 Waiting for next clock tick
+00:22 M02 Received Clock Tick
+00:22 M2 Serving Customer No M204
+Wait time 3
+00:22 M02 Waiting for next clock tick
+00:22 M01 Received Clock Tick
+00:22 M1 Customer No M108 arrived
+Wait time 3
+00:22 M01 Waiting for next clock tick
+00:22 H01 Received Clock Tick
+00:22 H01 Waiting for next clock tick
+00:22 L03 Received Clock Tick
+Wait time 5
+00:22 L03 Waiting for next clock tick
+00:22 L02 Received Clock Tick
+Wait time 5
+00:22 L02 Waiting for next clock tick
+00:22 L04 Received Clock Tick
+Wait time 3
+00:22 L04 Waiting for next clock tick
+00:22 L01 Received Clock Tick
+00:22 L01 Waiting for next clock tick
+00:23 Main Thread Clock Tick
+00:23 M03 Received Clock Tick
+Wait time 1
+00:23 M03 Waiting for next clock tick
+00:23 L06 Received Clock Tick
+00:23 L6 Customer No L605 arrived
+00:23 L6 Serving Customer No L604
+Wait time 6
+00:23 L06 Waiting for next clock tick
+00:23 M02 Received Clock Tick
+Wait time 2
+00:23 M02 Waiting for next clock tick
+00:23 M01 Received Clock Tick
+Wait time 2
+00:23 M01 Waiting for next clock tick
+00:23 H01 Received Clock Tick
+00:23 H01 Waiting for next clock tick
+00:23 L03 Received Clock Tick
+Wait time 4
+00:23 L03 Waiting for next clock tick
+00:23 L02 Received Clock Tick
+00:23 L2 Customer No L207 arrived
+Wait time 4
+00:23 L02 Waiting for next clock tick
+00:23 L04 Received Clock Tick
+Wait time 2
+00:23 L04 Waiting for next clock tick
+00:23 L01 Received Clock Tick
+00:23 L01 Waiting for next clock tick
+00:23 L05 Received Clock Tick
+00:23 L05 Waiting for next clock tick
+00:24 Main Thread Clock Tick
+00:24 L06 Received Clock Tick
+Wait time 5
+00:24 L06 Waiting for next clock tick
+00:24 M02 Received Clock Tick
+Wait time 1
+00:24 M02 Waiting for next clock tick
+00:24 M01 Received Clock Tick
+Wait time 1
+00:24 M01 Waiting for next clock tick
+00:24 H01 Received Clock Tick
+00:24 H01 Waiting for next clock tick
+00:24 L03 Received Clock Tick
+Wait time 3
+00:24 L03 Waiting for next clock tick
+00:24 L02 Received Clock Tick
+Wait time 3
+00:24 L02 Waiting for next clock tick
+00:24 L04 Received Clock Tick
+Wait time 1
+00:24 L04 Waiting for next clock tick
+00:24 L01 Received Clock Tick
+00:24 L01 Waiting for next clock tick
+00:24 L05 Received Clock Tick
+00:24 L05 Waiting for next clock tick
+00:24 M03 Received Clock Tick
+Wait time 0
+00:24 M3 Customer No M303 assigned seat 5,9 
+00:24 M03 Waiting for next clock tick
+00:25 Main Thread Clock Tick
+00:25 M02 Received Clock Tick
+Wait time 0
+00:25 M2 Customer No M204 assigned seat 6,0 
+00:25 M02 Waiting for next clock tick
+00:25 M01 Received Clock Tick
+Wait time 0
+00:25 M1 Customer No M105 assigned seat 6,1 
+00:25 M01 Waiting for next clock tick
+00:25 H01 Received Clock Tick
+00:25 H1 Customer No H104 arrived
+00:25 H1 Serving Customer No H104
+Wait time 2
+00:25 H01 Waiting for next clock tick
+00:25 L03 Received Clock Tick
+Wait time 2
+00:25 L03 Waiting for next clock tick
+00:25 L02 Received Clock Tick
+Wait time 2
+00:25 L02 Waiting for next clock tick
+00:25 L04 Received Clock Tick
+Wait time 0
+00:25 L4 Customer No L403 assigned seat 8,4 
+00:25 L04 Waiting for next clock tick
+00:25 L01 Received Clock Tick
+00:25 L01 Waiting for next clock tick
+00:25 L05 Received Clock Tick
+00:25 L05 Waiting for next clock tick
+00:25 M03 Received Clock Tick
+00:25 M3 Customer No M304 arrived
+00:25 M3 Serving Customer No M304
+Wait time 2
+00:25 M03 Waiting for next clock tick
+00:25 L06 Received Clock Tick
+Wait time 4
+00:25 L06 Waiting for next clock tick
+00:26 Main Thread Clock Tick
+00:26 M01 Received Clock Tick
+00:26 M1 Serving Customer No M106
+Wait time 2
+00:26 M01 Waiting for next clock tick
+00:26 H01 Received Clock Tick
+Wait time 1
+00:26 H01 Waiting for next clock tick
+00:26 L03 Received Clock Tick
+Wait time 1
+00:26 L03 Waiting for next clock tick
+00:26 L02 Received Clock Tick
+Wait time 1
+00:26 L02 Waiting for next clock tick
+00:26 L04 Received Clock Tick
+00:26 L4 Customer No L406 arrived
+00:26 L4 Serving Customer No L404
+Wait time 4
+00:26 L04 Waiting for next clock tick
+00:26 L01 Received Clock Tick
+00:26 L01 Waiting for next clock tick
+00:26 L05 Received Clock Tick
+00:26 L05 Waiting for next clock tick
+00:26 M03 Received Clock Tick
+00:26 M3 Customer No M305 arrived
+Wait time 1
+00:26 M03 Waiting for next clock tick
+00:26 L06 Received Clock Tick
+Wait time 3
+00:26 L06 Waiting for next clock tick
+00:26 M02 Received Clock Tick
+00:26 M02 Waiting for next clock tick
+00:27 Main Thread Clock Tick
+00:27 H01 Received Clock Tick
+Wait time 0
+00:27 H1 Customer No H104 assigned seat 0,3 
+00:27 H01 Waiting for next clock tick
+00:27 L03 Received Clock Tick
+Wait time 0
+00:27 L3 Customer No L304 assigned seat 8,3 
+00:27 L03 Waiting for next clock tick
+00:27 L02 Received Clock Tick
+Wait time 0
+00:27 L2 Customer No L204 assigned seat 8,2 
+00:27 L02 Waiting for next clock tick
+00:27 L04 Received Clock Tick
+Wait time 3
+00:27 L04 Waiting for next clock tick
+00:27 L01 Received Clock Tick
+00:27 L1 Customer No L103 arrived
+00:27 L1 Serving Customer No L103
+Wait time 4
+00:27 L01 Waiting for next clock tick
+00:27 L05 Received Clock Tick
+00:27 L05 Waiting for next clock tick
+00:27 M03 Received Clock Tick
+Wait time 0
+00:27 M3 Customer No M304 assigned seat 6,2 
+00:27 M03 Waiting for next clock tick
+00:27 L06 Received Clock Tick
+00:27 L6 Customer No L606 arrived
+Wait time 2
+00:27 L06 Waiting for next clock tick
+00:27 M02 Received Clock Tick
+00:27 M02 Waiting for next clock tick
+00:27 M01 Received Clock Tick
+Wait time 1
+00:27 M01 Waiting for next clock tick
+00:28 Main Thread Clock Tick
+00:28 L03 Received Clock Tick
+00:28 L3 Serving Customer No L305
+Wait time 4
+00:28 L03 Waiting for next clock tick
+00:28 L02 Received Clock Tick
+00:28 L2 Serving Customer No L205
+Wait time 5
+00:28 L02 Waiting for next clock tick
+00:28 L04 Received Clock Tick
+Wait time 2
+00:28 L04 Waiting for next clock tick
+00:28 L01 Received Clock Tick
+Wait time 3
+00:28 L01 Waiting for next clock tick
+00:28 L05 Received Clock Tick
+00:28 L5 Customer No L503 arrived
+00:28 L5 Serving Customer No L503
+Wait time 4
+00:28 L05 Waiting for next clock tick
+00:28 M03 Received Clock Tick
+00:28 M3 Serving Customer No M305
+Wait time 2
+00:28 M03 Waiting for next clock tick
+00:28 L06 Received Clock Tick
+Wait time 1
+00:28 L06 Waiting for next clock tick
+00:28 M02 Received Clock Tick
+00:28 M02 Waiting for next clock tick
+00:28 M01 Received Clock Tick
+Wait time 0
+00:28 M1 Customer No M106 assigned seat 6,3 
+00:28 M01 Waiting for next clock tick
+00:28 H01 Received Clock Tick
+00:28 H1 Customer No H105 arrived
+00:28 H1 Customer No H106 arrived
+00:28 H1 Serving Customer No H105
+Wait time 1
+00:28 H01 Waiting for next clock tick
+00:29 Main Thread Clock Tick
+00:29 L02 Received Clock Tick
+Wait time 4
+00:29 L02 Waiting for next clock tick
+00:29 L04 Received Clock Tick
+Wait time 1
+00:29 L04 Waiting for next clock tick
+00:29 L01 Received Clock Tick
+Wait time 2
+00:29 L01 Waiting for next clock tick
+00:29 L05 Received Clock Tick
+Wait time 3
+00:29 L05 Waiting for next clock tick
+00:29 M03 Received Clock Tick
+Wait time 1
+00:29 M03 Waiting for next clock tick
+00:29 L06 Received Clock Tick
+Wait time 0
+00:29 L6 Customer No L604 assigned seat 8,1 
+00:29 L06 Waiting for next clock tick
+00:29 M02 Received Clock Tick
+00:29 M02 Waiting for next clock tick
+00:29 M01 Received Clock Tick
+00:29 M1 Serving Customer No M107
+Wait time 4
+00:29 M01 Waiting for next clock tick
+00:29 H01 Received Clock Tick
+Wait time 0
+00:29 H1 Customer No H105 assigned seat 0,4 
+00:29 H01 Waiting for next clock tick
+00:29 L03 Received Clock Tick
+Wait time 3
+00:29 L03 Waiting for next clock tick
+00:30 Main Thread Clock Tick
+00:30 L04 Received Clock Tick
+Wait time 0
+00:30 L4 Customer No L404 assigned seat 8,0 
+00:30 L04 Waiting for next clock tick
+00:30 L01 Received Clock Tick
+Wait time 1
+00:30 L01 Waiting for next clock tick
+00:30 L05 Received Clock Tick
+Wait time 2
+00:30 L05 Waiting for next clock tick
+00:30 M03 Received Clock Tick
+00:30 M3 Customer No M306 arrived
+Wait time 0
+00:30 M3 Customer No M305 assigned seat 6,4 
+00:30 M03 Waiting for next clock tick
+00:30 L06 Received Clock Tick
+00:30 L6 Serving Customer No L605
+Wait time 7
+00:30 L06 Waiting for next clock tick
+00:30 M02 Received Clock Tick
+00:30 M02 Waiting for next clock tick
+00:30 M01 Received Clock Tick
+Wait time 3
+00:30 M01 Waiting for next clock tick
+00:30 H01 Received Clock Tick
+00:30 H1 Serving Customer No H106
+Wait time 1
+00:30 H01 Waiting for next clock tick
+00:30 L03 Received Clock Tick
+Wait time 2
+00:30 L03 Waiting for next clock tick
+00:30 L02 Received Clock Tick
+Wait time 3
+00:30 L02 Waiting for next clock tick
+00:31 Main Thread Clock Tick
+00:31 L01 Received Clock Tick
+Wait time 0
+00:31 L1 Customer No L103 assigned seat 7,9 
+00:31 L01 Waiting for next clock tick
+00:31 L05 Received Clock Tick
+00:31 L5 Customer No L504 arrived
+Wait time 1
+00:31 L05 Waiting for next clock tick
+00:31 M03 Received Clock Tick
+00:31 M3 Serving Customer No M306
+Wait time 2
+00:31 M03 Waiting for next clock tick
+00:31 L06 Received Clock Tick
+00:31 L6 Customer No L607 arrived
+Wait time 6
+00:31 L06 Waiting for next clock tick
+00:31 M02 Received Clock Tick
+00:31 M2 Customer No M205 arrived
+00:31 M2 Serving Customer No M205
+Wait time 4
+00:31 M02 Waiting for next clock tick
+00:31 M01 Received Clock Tick
+Wait time 2
+00:31 M01 Waiting for next clock tick
+00:31 H01 Received Clock Tick
+Wait time 0
+00:31 H1 Customer No H106 assigned seat 0,5 
+00:31 H01 Waiting for next clock tick
+00:31 L03 Received Clock Tick
+Wait time 1
+00:31 L03 Waiting for next clock tick
+00:31 L02 Received Clock Tick
+00:31 L2 Customer No L208 arrived
+Wait time 2
+00:31 L02 Waiting for next clock tick
+00:31 L04 Received Clock Tick
+00:31 L4 Serving Customer No L405
+Wait time 6
+00:31 L04 Waiting for next clock tick
+00:32 Main Thread Clock Tick
+00:32 L05 Received Clock Tick
+Wait time 0
+00:32 L5 Customer No L503 assigned seat 7,8 
+00:32 L05 Waiting for next clock tick
+00:32 M03 Received Clock Tick
+Wait time 1
+00:32 M03 Waiting for next clock tick
+00:32 L06 Received Clock Tick
+Wait time 5
+00:32 L06 Waiting for next clock tick
+00:32 M02 Received Clock Tick
+Wait time 3
+00:32 M02 Waiting for next clock tick
+00:32 M01 Received Clock Tick
+00:32 M1 Customer No M109 arrived
+Wait time 1
+00:32 M01 Waiting for next clock tick
+00:32 H01 Received Clock Tick
+00:32 H01 Waiting for next clock tick
+00:32 L03 Received Clock Tick
+Wait time 0
+00:32 L3 Customer No L305 assigned seat 7,7 
+00:32 L03 Waiting for next clock tick
+00:32 L02 Received Clock Tick
+Wait time 1
+00:32 L02 Waiting for next clock tick
+00:32 L04 Received Clock Tick
+Wait time 5
+00:32 L04 Waiting for next clock tick
+00:32 L01 Received Clock Tick
+00:32 L01 Waiting for next clock tick
+00:33 Main Thread Clock Tick
+00:33 M03 Received Clock Tick
+Wait time 0
+00:33 M3 Customer No M306 assigned seat 6,5 
+00:33 M03 Waiting for next clock tick
+00:33 L06 Received Clock Tick
+Wait time 4
+00:33 L06 Waiting for next clock tick
+00:33 M02 Received Clock Tick
+Wait time 2
+00:33 M02 Waiting for next clock tick
+00:33 M01 Received Clock Tick
+Wait time 0
+00:33 M1 Customer No M107 assigned seat 6,6 
+00:33 M01 Waiting for next clock tick
+00:33 H01 Received Clock Tick
+00:33 H01 Waiting for next clock tick
+00:33 L03 Received Clock Tick
+00:33 L03 Waiting for next clock tick
+00:33 L02 Received Clock Tick
+Wait time 0
+00:33 L2 Customer No L205 assigned seat 7,6 
+00:33 L02 Waiting for next clock tick
+00:33 L04 Received Clock Tick
+Wait time 4
+00:33 L04 Waiting for next clock tick
+00:33 L01 Received Clock Tick
+00:33 L01 Waiting for next clock tick
+00:33 L05 Received Clock Tick
+00:33 L5 Serving Customer No L504
+Wait time 7
+00:33 L05 Waiting for next clock tick
+00:34 Main Thread Clock Tick
+00:34 L06 Received Clock Tick
+00:34 L6 Customer No L608 arrived
+Wait time 3
+00:34 L06 Waiting for next clock tick
+00:34 M02 Received Clock Tick
+Wait time 1
+00:34 M02 Waiting for next clock tick
+00:34 M01 Received Clock Tick
+00:34 M1 Serving Customer No M108
+Wait time 3
+00:34 M01 Waiting for next clock tick
+00:34 H01 Received Clock Tick
+00:34 H01 Waiting for next clock tick
+00:34 L03 Received Clock Tick
+00:34 L03 Waiting for next clock tick
+00:34 L02 Received Clock Tick
+00:34 L2 Serving Customer No L206
+Wait time 4
+00:34 L02 Waiting for next clock tick
+00:34 L04 Received Clock Tick
+Wait time 3
+00:34 L04 Waiting for next clock tick
+00:34 L01 Received Clock Tick
+00:34 L01 Waiting for next clock tick
+00:34 L05 Received Clock Tick
+Wait time 6
+00:34 L05 Waiting for next clock tick
+00:34 M03 Received Clock Tick
+00:34 M03 Waiting for next clock tick
+00:35 Main Thread Clock Tick
+00:35 M02 Received Clock Tick
+Wait time 0
+00:35 M2 Customer No M205 assigned seat 6,7 
+00:35 M02 Waiting for next clock tick
+00:35 M01 Received Clock Tick
+00:35 M1 Customer No M110 arrived
+Wait time 2
+00:35 M01 Waiting for next clock tick
+00:35 H01 Received Clock Tick
+00:35 H01 Waiting for next clock tick
+00:35 L03 Received Clock Tick
+00:35 L3 Customer No L306 arrived
+00:35 L3 Serving Customer No L306
+Wait time 5
+00:35 L03 Waiting for next clock tick
+00:35 L02 Received Clock Tick
+00:35 L2 Customer No L209 arrived
+Wait time 3
+00:35 L02 Waiting for next clock tick
+00:35 L04 Received Clock Tick
+Wait time 2
+00:35 L04 Waiting for next clock tick
+00:35 L01 Received Clock Tick
+00:35 L01 Waiting for next clock tick
+00:35 L05 Received Clock Tick
+00:35 L5 Customer No L505 arrived
+Wait time 5
+00:35 L05 Waiting for next clock tick
+00:35 M03 Received Clock Tick
+00:35 M03 Waiting for next clock tick
+00:35 L06 Received Clock Tick
+Wait time 2
+00:35 L06 Waiting for next clock tick
+00:36 Main Thread Clock Tick
+00:36 M01 Received Clock Tick
+Wait time 1
+00:36 M01 Waiting for next clock tick
+00:36 H01 Received Clock Tick
+00:36 H01 Waiting for next clock tick
+00:36 L03 Received Clock Tick
+Wait time 4
+00:36 L03 Waiting for next clock tick
+00:36 L02 Received Clock Tick
+Wait time 2
+00:36 L02 Waiting for next clock tick
+00:36 L04 Received Clock Tick
+Wait time 1
+00:36 L04 Waiting for next clock tick
+00:36 L01 Received Clock Tick
+00:36 L01 Waiting for next clock tick
+00:36 L05 Received Clock Tick
+Wait time 4
+00:36 L05 Waiting for next clock tick
+00:36 M03 Received Clock Tick
+00:36 M03 Waiting for next clock tick
+00:36 L06 Received Clock Tick
+Wait time 1
+00:36 L06 Waiting for next clock tick
+00:36 M02 Received Clock Tick
+00:36 M02 Waiting for next clock tick
+00:37 Main Thread Clock Tick
+00:37 H01 Received Clock Tick
+00:37 H01 Waiting for next clock tick
+00:37 L03 Received Clock Tick
+00:37 L3 Customer No L307 arrived
+Wait time 3
+00:37 L03 Waiting for next clock tick
+00:37 L02 Received Clock Tick
+Wait time 1
+00:37 L02 Waiting for next clock tick
+00:37 L04 Received Clock Tick
+Wait time 0
+00:37 L4 Customer No L405 assigned seat 7,5 
+00:37 L04 Waiting for next clock tick
+00:37 L01 Received Clock Tick
+00:37 L01 Waiting for next clock tick
+00:37 L05 Received Clock Tick
+Wait time 3
+00:37 L05 Waiting for next clock tick
+00:37 M03 Received Clock Tick
+00:37 M03 Waiting for next clock tick
+00:37 L06 Received Clock Tick
+Wait time 0
+00:37 L6 Customer No L605 assigned seat 7,4 
+00:37 L06 Waiting for next clock tick
+00:37 M02 Received Clock Tick
+00:37 M02 Waiting for next clock tick
+00:37 M01 Received Clock Tick
+Wait time 0
+00:37 M1 Customer No M108 assigned seat 6,8 
+00:37 M01 Waiting for next clock tick
+00:38 Main Thread Clock Tick
+00:38 L03 Received Clock Tick
+Wait time 2
+00:38 L03 Waiting for next clock tick
+00:38 L02 Received Clock Tick
+Wait time 0
+00:38 L2 Customer No L206 assigned seat 7,3 
+00:38 L02 Waiting for next clock tick
+00:38 L04 Received Clock Tick
+00:38 L4 Serving Customer No L406
+Wait time 6
+00:38 L04 Waiting for next clock tick
+00:38 L01 Received Clock Tick
+00:38 L1 Customer No L104 arrived
+00:38 L1 Serving Customer No L104
+Wait time 5
+00:38 L01 Waiting for next clock tick
+00:38 L05 Received Clock Tick
+00:38 L5 Customer No L506 arrived
+Wait time 2
+00:38 L05 Waiting for next clock tick
+00:38 M03 Received Clock Tick
+00:38 M03 Waiting for next clock tick
+00:38 L06 Received Clock Tick
+00:38 L6 Serving Customer No L606
+Wait time 5
+00:38 L06 Waiting for next clock tick
+00:38 M02 Received Clock Tick
+00:38 M02 Waiting for next clock tick
+00:38 M01 Received Clock Tick
+00:38 M1 Serving Customer No M109
+Wait time 2
+00:38 M01 Waiting for next clock tick
+00:38 H01 Received Clock Tick
+00:38 H01 Waiting for next clock tick
+00:39 Main Thread Clock Tick
+00:39 L02 Received Clock Tick
+00:39 L2 Serving Customer No L207
+Wait time 5
+00:39 L02 Waiting for next clock tick
+00:39 L04 Received Clock Tick
+Wait time 5
+00:39 L04 Waiting for next clock tick
+00:39 L01 Received Clock Tick
+Wait time 4
+00:39 L01 Waiting for next clock tick
+00:39 L05 Received Clock Tick
+Wait time 1
+00:39 L05 Waiting for next clock tick
+00:39 M03 Received Clock Tick
+00:39 M03 Waiting for next clock tick
+00:39 L06 Received Clock Tick
+Wait time 4
+00:39 L06 Waiting for next clock tick
+00:39 M02 Received Clock Tick
+00:39 M2 Customer No M206 arrived
+00:39 M2 Serving Customer No M206
+Wait time 3
+00:39 M02 Waiting for next clock tick
+00:39 M01 Received Clock Tick
+Wait time 1
+00:39 M01 Waiting for next clock tick
+00:39 H01 Received Clock Tick
+00:39 H1 Customer No H107 arrived
+00:39 H1 Serving Customer No H107
+Wait time 1
+00:39 H01 Waiting for next clock tick
+00:39 L03 Received Clock Tick
+Wait time 1
+00:39 L03 Waiting for next clock tick
+00:40 Main Thread Clock Tick
+00:40 L04 Received Clock Tick
+Wait time 4
+00:40 L04 Waiting for next clock tick
+00:40 L01 Received Clock Tick
+Wait time 3
+00:40 L01 Waiting for next clock tick
+00:40 L05 Received Clock Tick
+Wait time 0
+00:40 L5 Customer No L504 assigned seat 7,2 
+00:40 L05 Waiting for next clock tick
+00:40 M03 Received Clock Tick
+00:40 M03 Waiting for next clock tick
+00:40 L06 Received Clock Tick
+Wait time 3
+00:40 L06 Waiting for next clock tick
+00:40 M02 Received Clock Tick
+00:40 M2 Customer No M207 arrived
+Wait time 2
+00:40 M02 Waiting for next clock tick
+00:40 M01 Received Clock Tick
+Wait time 0
+00:40 M1 Customer No M109 assigned seat 6,9 
+00:40 M01 Waiting for next clock tick
+00:40 H01 Received Clock Tick
+Wait time 0
+00:40 H1 Customer No H107 assigned seat 0,6 
+00:40 H01 Waiting for next clock tick
+00:40 L03 Received Clock Tick
+Wait time 0
+00:40 L3 Customer No L306 assigned seat 7,1 
+00:40 L03 Waiting for next clock tick
+00:40 L02 Received Clock Tick
+Wait time 4
+00:40 L02 Waiting for next clock tick
+00:41 Main Thread Clock Tick
+00:41 L01 Received Clock Tick
+00:41 L1 Customer No L105 arrived
+Wait time 2
+00:41 L01 Waiting for next clock tick
+00:41 L05 Received Clock Tick
+00:41 L5 Serving Customer No L505
+Wait time 7
+00:41 L05 Waiting for next clock tick
+00:41 M03 Received Clock Tick
+00:41 M03 Waiting for next clock tick
+00:41 L06 Received Clock Tick
+Wait time 2
+00:41 L06 Waiting for next clock tick
+00:41 M02 Received Clock Tick
+Wait time 1
+00:41 M02 Waiting for next clock tick
+00:41 M01 Received Clock Tick
+00:41 M1 Serving Customer No M110
+Wait time 2
+00:41 M01 Waiting for next clock tick
+00:41 H01 Received Clock Tick
+00:41 H01 Waiting for next clock tick
+00:41 L03 Received Clock Tick
+00:41 L3 Customer No L308 arrived
+00:41 L3 Serving Customer No L307
+Wait time 7
+00:41 L03 Waiting for next clock tick
+00:41 L02 Received Clock Tick
+Wait time 3
+00:41 L02 Waiting for next clock tick
+00:41 L04 Received Clock Tick
+00:41 L4 Customer No L407 arrived
+Wait time 3
+00:41 L04 Waiting for next clock tick
+00:42 Main Thread Clock Tick
+00:42 L05 Received Clock Tick
+00:42 L5 Customer No L507 arrived
+00:42 L5 Customer No L508 arrived
+Wait time 6
+00:42 L05 Waiting for next clock tick
+00:42 M03 Received Clock Tick
+00:42 M03 Waiting for next clock tick
+00:42 L06 Received Clock Tick
+Wait time 1
+00:42 L06 Waiting for next clock tick
+00:42 M02 Received Clock Tick
+Wait time 0
+00:42 M2 Customer No M206 assigned seat 4,0 
+00:42 M02 Waiting for next clock tick
+00:42 M01 Received Clock Tick
+Wait time 1
+00:42 M01 Waiting for next clock tick
+00:42 H01 Received Clock Tick
+00:42 H01 Waiting for next clock tick
+00:42 L03 Received Clock Tick
+Wait time 6
+00:42 L03 Waiting for next clock tick
+00:42 L02 Received Clock Tick
+Wait time 2
+00:42 L02 Waiting for next clock tick
+00:42 L04 Received Clock Tick
+Wait time 2
+00:42 L04 Waiting for next clock tick
+00:42 L01 Received Clock Tick
+00:42 L1 Customer No L106 arrived
+Wait time 1
+00:42 L01 Waiting for next clock tick
+00:43 Main Thread Clock Tick
+00:43 M03 Received Clock Tick
+00:43 M03 Waiting for next clock tick
+00:43 L06 Received Clock Tick
+Wait time 0
+00:43 L6 Customer No L606 assigned seat 7,0 
+00:43 L06 Waiting for next clock tick
+00:43 M02 Received Clock Tick
+00:43 M2 Serving Customer No M207
+Wait time 3
+00:43 M02 Waiting for next clock tick
+00:43 M01 Received Clock Tick
+Wait time 0
+00:43 M1 Customer No M110 assigned seat 4,1 
+00:43 M01 Waiting for next clock tick
+00:43 H01 Received Clock Tick
+00:43 H01 Waiting for next clock tick
+00:43 L03 Received Clock Tick
+Wait time 5
+00:43 L03 Waiting for next clock tick
+00:43 L02 Received Clock Tick
+Wait time 1
+00:43 L02 Waiting for next clock tick
+00:43 L04 Received Clock Tick
+Wait time 1
+00:43 L04 Waiting for next clock tick
+00:43 L01 Received Clock Tick
+00:43 L1 Customer No L107 arrived
+Wait time 0
+00:43 L1 Customer No L104 assigned seat 4,9 
+00:43 L01 Waiting for next clock tick
+00:43 L05 Received Clock Tick
+00:43 L5 Customer No L509 arrived
+Wait time 5
+00:43 L05 Waiting for next clock tick
+00:44 Main Thread Clock Tick
+00:44 L06 Received Clock Tick
+00:44 L6 Serving Customer No L607
+Wait time 5
+00:44 L06 Waiting for next clock tick
+00:44 M02 Received Clock Tick
+Wait time 2
+00:44 M02 Waiting for next clock tick
+00:44 M01 Received Clock Tick
+00:44 M01 Waiting for next clock tick
+00:44 H01 Received Clock Tick
+00:44 H1 Customer No H108 arrived
+00:44 H1 Serving Customer No H108
+Wait time 1
+00:44 H01 Waiting for next clock tick
+00:44 L03 Received Clock Tick
+Wait time 4
+00:44 L03 Waiting for next clock tick
+00:44 L02 Received Clock Tick
+Wait time 0
+00:44 L2 Customer No L207 assigned seat 4,8 
+00:44 L02 Waiting for next clock tick
+00:44 L04 Received Clock Tick
+Wait time 0
+00:44 L4 Customer No L406 assigned seat 4,7 
+00:44 L04 Waiting for next clock tick
+00:44 L01 Received Clock Tick
+00:44 L1 Serving Customer No L105
+Wait time 7
+00:44 L01 Waiting for next clock tick
+00:44 L05 Received Clock Tick
+Wait time 4
+00:44 L05 Waiting for next clock tick
+00:44 M03 Received Clock Tick
+00:44 M03 Waiting for next clock tick
+00:45 Main Thread Clock Tick
+00:45 M02 Received Clock Tick
+Wait time 1
+00:45 M02 Waiting for next clock tick
+00:45 M01 Received Clock Tick
+00:45 M01 Waiting for next clock tick
+00:45 H01 Received Clock Tick
+Wait time 0
+00:45 H1 Customer No H108 assigned seat 0,7 
+00:45 H01 Waiting for next clock tick
+00:45 L03 Received Clock Tick
+Wait time 3
+00:45 L03 Waiting for next clock tick
+00:45 L02 Received Clock Tick
+00:45 L2 Serving Customer No L208
+Wait time 6
+00:45 L02 Waiting for next clock tick
+00:45 L04 Received Clock Tick
+00:45 L4 Serving Customer No L407
+Wait time 4
+00:45 L04 Waiting for next clock tick
+00:45 L01 Received Clock Tick
+Wait time 6
+00:45 L01 Waiting for next clock tick
+00:45 L05 Received Clock Tick
+Wait time 3
+00:45 L05 Waiting for next clock tick
+00:45 M03 Received Clock Tick
+00:45 M3 Customer No M307 arrived
+00:45 M3 Serving Customer No M307
+Wait time 3
+00:45 M03 Waiting for next clock tick
+00:45 L06 Received Clock Tick
+Wait time 4
+00:45 L06 Waiting for next clock tick
+00:46 Main Thread Clock Tick
+00:46 M01 Received Clock Tick
+00:46 M01 Waiting for next clock tick
+00:46 H01 Received Clock Tick
+00:46 H01 Waiting for next clock tick
+00:46 L03 Received Clock Tick
+Wait time 2
+00:46 L03 Waiting for next clock tick
+00:46 L02 Received Clock Tick
+Wait time 5
+00:46 L02 Waiting for next clock tick
+00:46 L04 Received Clock Tick
+Wait time 3
+00:46 L04 Waiting for next clock tick
+00:46 L01 Received Clock Tick
+Wait time 5
+00:46 L01 Waiting for next clock tick
+00:46 L05 Received Clock Tick
+Wait time 2
+00:46 L05 Waiting for next clock tick
+00:46 M03 Received Clock Tick
+Wait time 2
+00:46 M03 Waiting for next clock tick
+00:46 L06 Received Clock Tick
+Wait time 3
+00:46 L06 Waiting for next clock tick
+00:46 M02 Received Clock Tick
+Wait time 0
+00:46 M2 Customer No M207 assigned seat 4,2 
+00:46 M02 Waiting for next clock tick
+00:47 Main Thread Clock Tick
+00:47 H01 Received Clock Tick
+00:47 H01 Waiting for next clock tick
+00:47 L03 Received Clock Tick
+00:47 L3 Customer No L309 arrived
+Wait time 1
+00:47 L03 Waiting for next clock tick
+00:47 L02 Received Clock Tick
+Wait time 4
+00:47 L02 Waiting for next clock tick
+00:47 L04 Received Clock Tick
+Wait time 2
+00:47 L04 Waiting for next clock tick
+00:47 L01 Received Clock Tick
+00:47 L1 Customer No L108 arrived
+Wait time 4
+00:47 L01 Waiting for next clock tick
+00:47 L05 Received Clock Tick
+Wait time 1
+00:47 L05 Waiting for next clock tick
+00:47 M03 Received Clock Tick
+Wait time 1
+00:47 M03 Waiting for next clock tick
+00:47 L06 Received Clock Tick
+00:47 L6 Customer No L609 arrived
+Wait time 2
+00:47 L06 Waiting for next clock tick
+00:47 M02 Received Clock Tick
+00:47 M02 Waiting for next clock tick
+00:47 M01 Received Clock Tick
+00:47 M01 Waiting for next clock tick
+00:48 Main Thread Clock Tick
+00:48 L03 Received Clock Tick
+Wait time 0
+00:48 L3 Customer No L307 assigned seat 4,6 
+00:48 L03 Waiting for next clock tick
+00:48 L02 Received Clock Tick
+Wait time 3
+00:48 L02 Waiting for next clock tick
+00:48 L04 Received Clock Tick
+Wait time 1
+00:48 L04 Waiting for next clock tick
+00:48 L01 Received Clock Tick
+Wait time 3
+00:48 L01 Waiting for next clock tick
+00:48 L05 Received Clock Tick
+Wait time 0
+00:48 L5 Customer No L505 assigned seat 4,5 
+00:48 L05 Waiting for next clock tick
+00:48 M03 Received Clock Tick
+Wait time 0
+00:48 M3 Customer No M307 assigned seat 4,3 
+00:48 M03 Waiting for next clock tick
+00:48 L06 Received Clock Tick
+Wait time 1
+00:48 L06 Waiting for next clock tick
+00:48 M02 Received Clock Tick
+00:48 M02 Waiting for next clock tick
+00:48 M01 Received Clock Tick
+00:48 M01 Waiting for next clock tick
+00:48 H01 Received Clock Tick
+00:48 H01 Waiting for next clock tick
+00:49 Main Thread Clock Tick
+00:49 L02 Received Clock Tick
+Wait time 2
+00:49 L02 Waiting for next clock tick
+00:49 L04 Received Clock Tick
+Wait time 0
+00:49 L4 Customer No L407 assigned seat 4,4 
+00:49 L04 Waiting for next clock tick
+00:49 L01 Received Clock Tick
+Wait time 2
+00:49 L01 Waiting for next clock tick
+00:49 L05 Received Clock Tick
+00:49 L5 Customer No L510 arrived
+00:49 L5 Serving Customer No L506
+Wait time 7
+00:49 L05 Waiting for next clock tick
+00:49 M03 Received Clock Tick
+00:49 M03 Waiting for next clock tick
+00:49 L06 Received Clock Tick
+Wait time 0
+00:49 L6 Customer No L607 assigned seat 3,9 
+00:49 L06 Waiting for next clock tick
+00:49 M02 Received Clock Tick
+00:49 M02 Waiting for next clock tick
+00:49 M01 Received Clock Tick
+00:49 M01 Waiting for next clock tick
+00:49 H01 Received Clock Tick
+00:49 H1 Customer No H109 arrived
+00:49 H1 Serving Customer No H109
+Wait time 2
+00:49 H01 Waiting for next clock tick
+00:49 L03 Received Clock Tick
+00:49 L3 Serving Customer No L308
+Wait time 6
+00:49 L03 Waiting for next clock tick
+00:50 Main Thread Clock Tick
+00:50 L04 Received Clock Tick
+00:50 L04 Waiting for next clock tick
+00:50 L01 Received Clock Tick
+00:50 L1 Customer No L109 arrived
+Wait time 1
+00:50 L01 Waiting for next clock tick
+00:50 L05 Received Clock Tick
+Wait time 6
+00:50 L05 Waiting for next clock tick
+00:50 M03 Received Clock Tick
+00:50 M3 Customer No M308 arrived
+00:50 M3 Serving Customer No M308
+Wait time 3
+00:50 M03 Waiting for next clock tick
+00:50 L06 Received Clock Tick
+00:50 L6 Serving Customer No L608
+Wait time 5
+00:50 L06 Waiting for next clock tick
+00:50 M02 Received Clock Tick
+00:50 M02 Waiting for next clock tick
+00:50 M01 Received Clock Tick
+00:50 M01 Waiting for next clock tick
+00:50 H01 Received Clock Tick
+Wait time 1
+00:50 H01 Waiting for next clock tick
+00:50 L03 Received Clock Tick
+Wait time 5
+00:50 L03 Waiting for next clock tick
+00:50 L02 Received Clock Tick
+Wait time 1
+00:50 L02 Waiting for next clock tick
+00:51 Main Thread Clock Tick
+00:51 L01 Received Clock Tick
+Wait time 0
+00:51 L1 Customer No L105 assigned seat 3,8 
+00:51 L01 Waiting for next clock tick
+00:51 L05 Received Clock Tick
+Wait time 5
+00:51 L05 Waiting for next clock tick
+00:51 M03 Received Clock Tick
+Wait time 2
+00:51 M03 Waiting for next clock tick
+00:51 L06 Received Clock Tick
+Wait time 4
+00:51 L06 Waiting for next clock tick
+00:51 M02 Received Clock Tick
+00:51 M02 Waiting for next clock tick
+00:51 M01 Received Clock Tick
+00:51 M01 Waiting for next clock tick
+00:51 H01 Received Clock Tick
+Wait time 0
+00:51 H1 Customer No H109 assigned seat 0,8 
+00:51 H01 Waiting for next clock tick
+00:51 L03 Received Clock Tick
+Wait time 4
+00:51 L03 Waiting for next clock tick
+00:51 L02 Received Clock Tick
+Wait time 0
+00:51 L2 Customer No L208 assigned seat 3,7 
+00:51 L02 Waiting for next clock tick
+00:51 L04 Received Clock Tick
+00:51 L4 Customer No L408 arrived
+00:51 L4 Serving Customer No L408
+Wait time 5
+00:51 L04 Waiting for next clock tick
+00:52 Main Thread Clock Tick
+00:52 L05 Received Clock Tick
+Wait time 4
+00:52 L05 Waiting for next clock tick
+00:52 M03 Received Clock Tick
+00:52 M3 Customer No M309 arrived
+Wait time 1
+00:52 M03 Waiting for next clock tick
+00:52 L06 Received Clock Tick
+Wait time 3
+00:52 L06 Waiting for next clock tick
+00:52 M02 Received Clock Tick
+00:52 M02 Waiting for next clock tick
+00:52 M01 Received Clock Tick
+00:52 M01 Waiting for next clock tick
+00:52 H01 Received Clock Tick
+00:52 H1 Customer No H110 arrived
+00:52 H1 Serving Customer No H110
+Wait time 2
+00:52 H01 Waiting for next clock tick
+00:52 L03 Received Clock Tick
+Wait time 3
+00:52 L03 Waiting for next clock tick
+00:52 L02 Received Clock Tick
+00:52 L2 Serving Customer No L209
+Wait time 6
+00:52 L02 Waiting for next clock tick
+00:52 L04 Received Clock Tick
+Wait time 4
+00:52 L04 Waiting for next clock tick
+00:52 L01 Received Clock Tick
+00:52 L1 Serving Customer No L106
+Wait time 7
+00:52 L01 Waiting for next clock tick
+00:53 Main Thread Clock Tick
+00:53 M03 Received Clock Tick
+Wait time 0
+00:53 M3 Customer No M308 assigned seat 3,0 
+00:53 M03 Waiting for next clock tick
+00:53 L06 Received Clock Tick
+Wait time 2
+00:53 L06 Waiting for next clock tick
+00:53 M02 Received Clock Tick
+00:53 M02 Waiting for next clock tick
+00:53 M01 Received Clock Tick
+00:53 M01 Waiting for next clock tick
+00:53 H01 Received Clock Tick
+Wait time 1
+00:53 H01 Waiting for next clock tick
+00:53 L03 Received Clock Tick
+Wait time 2
+00:53 L03 Waiting for next clock tick
+00:53 L02 Received Clock Tick
+Wait time 5
+00:53 L02 Waiting for next clock tick
+00:53 L04 Received Clock Tick
+00:53 L4 Customer No L409 arrived
+Wait time 3
+00:53 L04 Waiting for next clock tick
+00:53 L01 Received Clock Tick
+Wait time 6
+00:53 L01 Waiting for next clock tick
+00:53 L05 Received Clock Tick
+Wait time 3
+00:53 L05 Waiting for next clock tick
+00:54 Main Thread Clock Tick
+00:54 L06 Received Clock Tick
+Wait time 1
+00:54 L06 Waiting for next clock tick
+00:54 M02 Received Clock Tick
+00:54 M02 Waiting for next clock tick
+00:54 M01 Received Clock Tick
+00:54 M01 Waiting for next clock tick
+00:54 H01 Received Clock Tick
+Wait time 0
+00:54 H1 Customer No H110 assigned seat 0,9 
+00:54 H01 Waiting for next clock tick
+00:54 L03 Received Clock Tick
+Wait time 1
+00:54 L03 Waiting for next clock tick
+00:54 L02 Received Clock Tick
+Wait time 4
+00:54 L02 Waiting for next clock tick
+00:54 L04 Received Clock Tick
+Wait time 2
+00:54 L04 Waiting for next clock tick
+00:54 L01 Received Clock Tick
+Wait time 5
+00:54 L01 Waiting for next clock tick
+00:54 L05 Received Clock Tick
+Wait time 2
+00:54 L05 Waiting for next clock tick
+00:54 M03 Received Clock Tick
+00:54 M3 Customer No M310 arrived
+00:54 M3 Serving Customer No M309
+Wait time 2
+00:54 M03 Waiting for next clock tick
+00:55 Main Thread Clock Tick
+00:55 M02 Received Clock Tick
+00:55 M2 Customer No M208 arrived
+00:55 M2 Serving Customer No M208
+Wait time 4
+00:55 M02 Waiting for next clock tick
+00:55 M01 Received Clock Tick
+00:55 M01 Waiting for next clock tick
+00:55 H01 Received Clock Tick
+00:55 H01 Waiting for next clock tick
+00:55 L03 Received Clock Tick
+Wait time 0
+00:55 L3 Customer No L308 assigned seat 3,6 
+00:55 L03 Waiting for next clock tick
+00:55 L02 Received Clock Tick
+Wait time 3
+00:55 L02 Waiting for next clock tick
+00:55 L04 Received Clock Tick
+Wait time 1
+00:55 L04 Waiting for next clock tick
+00:55 L01 Received Clock Tick
+Wait time 4
+00:55 L01 Waiting for next clock tick
+00:55 L05 Received Clock Tick
+Wait time 1
+00:55 L05 Waiting for next clock tick
+00:55 M03 Received Clock Tick
+Wait time 1
+00:55 M03 Waiting for next clock tick
+00:55 L06 Received Clock Tick
+Wait time 0
+00:55 L6 Customer No L608 assigned seat 3,5 
+00:55 L06 Waiting for next clock tick
+00:56 Main Thread Clock Tick
+00:56 M01 Received Clock Tick
+00:56 M01 Waiting for next clock tick
+00:56 H01 Received Clock Tick
+00:56 H01 Waiting for next clock tick
+00:56 L03 Received Clock Tick
+00:56 L3 Customer No L310 arrived
+00:56 L3 Serving Customer No L309
+Wait time 6
+00:56 L03 Waiting for next clock tick
+00:56 L02 Received Clock Tick
+Wait time 2
+00:56 L02 Waiting for next clock tick
+00:56 L04 Received Clock Tick
+00:56 L4 Customer No L410 arrived
+Wait time 0
+00:56 L4 Customer No L408 assigned seat 3,4 
+00:56 L04 Waiting for next clock tick
+00:56 L01 Received Clock Tick
+Wait time 3
+00:56 L01 Waiting for next clock tick
+00:56 L05 Received Clock Tick
+Wait time 0
+00:56 L5 Customer No L506 assigned seat 3,3 
+00:56 L05 Waiting for next clock tick
+00:56 M03 Received Clock Tick
+Wait time 0
+00:56 M3 Customer No M309 assigned seat 3,1 
+00:56 M03 Waiting for next clock tick
+00:56 L06 Received Clock Tick
+00:56 L6 Serving Customer No L609
+Wait time 6
+00:56 L06 Waiting for next clock tick
+00:56 M02 Received Clock Tick
+00:56 M2 Customer No M209 arrived
+Wait time 3
+00:56 M02 Waiting for next clock tick
+00:57 Main Thread Clock Tick
+00:57 H01 Received Clock Tick
+00:57 H01 Waiting for next clock tick
+00:57 L03 Received Clock Tick
+Wait time 5
+00:57 L03 Waiting for next clock tick
+00:57 L02 Received Clock Tick
+Wait time 1
+00:57 L02 Waiting for next clock tick
+00:57 L04 Received Clock Tick
+00:57 L4 Serving Customer No L409
+Wait time 7
+00:57 L04 Waiting for next clock tick
+00:57 L01 Received Clock Tick
+Wait time 2
+00:57 L01 Waiting for next clock tick
+00:57 L05 Received Clock Tick
+00:57 L5 Serving Customer No L507
+Wait time 5
+00:57 L05 Waiting for next clock tick
+00:57 M03 Received Clock Tick
+00:57 M3 Serving Customer No M310
+Wait time 4
+00:57 M03 Waiting for next clock tick
+00:57 L06 Received Clock Tick
+Wait time 5
+00:57 L06 Waiting for next clock tick
+00:57 M02 Received Clock Tick
+00:57 M2 Customer No M210 arrived
+Wait time 2
+00:57 M02 Waiting for next clock tick
+00:57 M01 Received Clock Tick
+00:57 M01 Waiting for next clock tick
+00:58 Main Thread Clock Tick
+00:58 L03 Received Clock Tick
+Wait time 4
+00:58 L03 Waiting for next clock tick
+00:58 L02 Received Clock Tick
+00:58 L2 Customer No L210 arrived
+Wait time 0
+00:58 L2 Customer No L209 assigned seat 3,2 
+00:58 L02 Waiting for next clock tick
+00:58 L04 Received Clock Tick
+Wait time 6
+00:58 L04 Waiting for next clock tick
+00:58 L01 Received Clock Tick
+Wait time 1
+00:58 L01 Waiting for next clock tick
+00:58 L05 Received Clock Tick
+Wait time 4
+00:58 L05 Waiting for next clock tick
+00:58 M03 Received Clock Tick
+Wait time 3
+00:58 M03 Waiting for next clock tick
+00:58 L06 Received Clock Tick
+00:58 L6 Customer No L610 arrived
+Wait time 4
+00:58 L06 Waiting for next clock tick
+00:58 M02 Received Clock Tick
+Wait time 1
+00:58 M02 Waiting for next clock tick
+00:58 M01 Received Clock Tick
+00:58 M01 Waiting for next clock tick
+00:58 H01 Received Clock Tick
+00:58 H01 Waiting for next clock tick
+00:59 Main Thread Clock Tick
+00:59 L02 Received Clock Tick
+00:59 L2 Serving Customer No L210
+Wait time 4
+00:59 L02 Waiting for next clock tick
+00:59 L04 Received Clock Tick
+Wait time 5
+00:59 L04 Waiting for next clock tick
+00:59 L01 Received Clock Tick
+00:59 L1 Customer No L110 arrived
+Wait time 0
+00:59 L1 Customer No L106 assigned seat 2,9 
+00:59 L01 Waiting for next clock tick
+00:59 L05 Received Clock Tick
+Wait time 3
+00:59 L05 Waiting for next clock tick
+00:59 M03 Received Clock Tick
+Wait time 2
+00:59 M03 Waiting for next clock tick
+00:59 L06 Received Clock Tick
+Wait time 3
+00:59 L06 Waiting for next clock tick
+00:59 M02 Received Clock Tick
+Wait time 0
+00:59 M2 Customer No M208 assigned seat 2,0 
+00:59 M02 Waiting for next clock tick
+00:59 M01 Received Clock Tick
+00:59 M01 Waiting for next clock tick
+00:59 H01 Received Clock Tick
+00:59 H01 Waiting for next clock tick
+00:59 L03 Received Clock Tick
+Wait time 3
+00:59 L03 Waiting for next clock tick
+00:60 Main Thread Clock Tick
+00:60 L04 Received Clock Tick
+00:60 L4 Ticket Sale Closed. Customer No L409 Leaves
+00:60 L4 Ticket Sale Closed. Customer No L410 Leaves
+00:60 L01 Received Clock Tick
+00:60 L1 Ticket Sale Closed. Customer No L107 Leaves
+00:60 L1 Ticket Sale Closed. Customer No L108 Leaves
+00:60 L1 Ticket Sale Closed. Customer No L109 Leaves
+00:60 L1 Ticket Sale Closed. Customer No L110 Leaves
+00:60 L05 Received Clock Tick
+00:60 L5 Ticket Sale Closed. Customer No L507 Leaves
+00:60 L5 Ticket Sale Closed. Customer No L508 Leaves
+00:60 L5 Ticket Sale Closed. Customer No L509 Leaves
+00:60 L5 Ticket Sale Closed. Customer No L510 Leaves
+00:60 M03 Received Clock Tick
+00:60 M3 Ticket Sale Closed. Customer No M310 Leaves
+00:60 L06 Received Clock Tick
+00:60 L6 Ticket Sale Closed. Customer No L609 Leaves
+00:60 L6 Ticket Sale Closed. Customer No L610 Leaves
+00:60 M02 Received Clock Tick
+00:60 M2 Ticket Sale Closed. Customer No M209 Leaves
+00:60 M2 Ticket Sale Closed. Customer No M210 Leaves
+00:60 M01 Received Clock Tick
+00:60 H01 Received Clock Tick
+00:60 L03 Received Clock Tick
+00:60 L3 Ticket Sale Closed. Customer No L309 Leaves
+00:60 L3 Ticket Sale Closed. Customer No L310 Leaves
+00:60 L02 Received Clock Tick
+00:60 L2 Ticket Sale Closed. Customer No L210 Leaves
+00:60 Main Thread Clock Tick
+
+
+Final Seat Allocation
+========================
+ H101	 H102	 H103	 H104	 H105	 H106	 H107	 H108	 H109	 H110
+    -	    -	    -	    -	    -	    -	    -	    -	    -	    -
+ M208	    -	    -	    -	    -	    -	    -	    -	    -	 L106
+ M308	 M309	 L209	 L506	 L408	 L608	 L308	 L208	 L105	 L607
+ M206	 M110	 M207	 M307	 L407	 L505	 L307	 L406	 L207	 L104
+ M101	 M301	 M102	 M201	 M202	 M103	 M302	 M104	 M203	 M303
+ M204	 M105	 M304	 M106	 M305	 M306	 M107	 M205	 M108	 M109
+ L606	 L306	 L504	 L206	 L605	 L405	 L205	 L305	 L503	 L103
+ L404	 L604	 L204	 L304	 L403	 L603	 L203	 L303	 L602	 L502
+ L402	 L102	 L202	 L302	 L401	 L501	 L301	 L201	 L101	 L601
+
+
+Stat for N = 10
+===============
+ ============================================
+|    | No of Customers | Got Seat | Returned |
+ ============================================
+|  H |              10 |       10 |        0 |
+|  M |              30 |       27 |        3 |
+|  L |              60 |       45 |       15 |
+ ============================================
+
+Average TAT is 22.30
+Average RT is 25.70
+Throughput of seller H is 0.75
+Throughput of seller M is 0.45
+Throughput of seller L is 0.17
