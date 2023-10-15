@@ -66,10 +66,10 @@ int main(int argc, char** argv) {
 	if(argc == 2) {
 		N = atoi(argv[1]);
 	}
-
+	int r = 0, c=0;
 	//Initialize Global Variables
-	for(int r=0; r<concert_row; r++) {
-		for(int c=0; c<concert_col; c++) {
+	for(r=0; r<concert_row; r++) {
+		for(c=0; c<concert_col; c++) {
 			strncpy(seat_matrix[r][c],"-",1);
 		}
 	}
@@ -112,7 +112,7 @@ int main(int argc, char** argv) {
 	printf("\n\n");
 	printf("Final Seat Allocation\n");
 	printf("========================\n");
-	int r =0, c=0, z1=0, j1 =0;
+	int z1=0, j1 =0;
 	int h_customers = 0,m_customers = 0,l_customers = 0;
 	for(r=0;r<concert_row;r++) {
 		for(c=0;c<concert_col;c++) {
@@ -176,7 +176,8 @@ void create_seller_threads(pthread_t *thread, char seller_type, int no_of_seller
 }
 
 void display_queue(queue *q) {
-	for(node *ptr = q->head;ptr!=NULL;ptr=ptr->next) {
+	node *ptr;
+	for(ptr = q->head;ptr!=NULL;ptr=ptr->next) {
 		customer *cust = (customer * )ptr->data;
 		printf("[%d,%d]",cust->cust_no,cust->arrival_time);
 	}
@@ -315,9 +316,9 @@ int findAvailableSeat(char seller_type){
 	int seatIndex = -1;
 
 	if(seller_type == 'H') {
-		int row_no =0;
+		int row_no =0, col_no=0;
 		for(row_no = 0;row_no < concert_row; row_no ++ ){
-			for(int col_no = 0;col_no < concert_col; col_no ++) {
+			for(col_no = 0;col_no < concert_col; col_no ++) {
 				if(strcmp(seat_matrix[row_no][col_no],"-") == 0) {
 					seatIndex = row_no * concert_col + col_no;
 					return seatIndex;
